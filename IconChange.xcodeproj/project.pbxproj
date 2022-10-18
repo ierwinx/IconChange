@@ -11,6 +11,12 @@
 		AAAFD7CE28FF670D00EC3707 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAFD7CD28FF670D00EC3707 /* ContentView.swift */; };
 		AAAFD7D028FF670E00EC3707 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAAFD7CF28FF670E00EC3707 /* Assets.xcassets */; };
 		AAAFD7D328FF670E00EC3707 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAAFD7D228FF670E00EC3707 /* Preview Assets.xcassets */; };
+		AAAFD7DA28FF673300EC3707 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAFD7D928FF673300EC3707 /* ContentViewModel.swift */; };
+		AAAFD7DF28FF675900EC3707 /* Musica3.png in Resources */ = {isa = PBXBuildFile; fileRef = AAAFD7DC28FF675800EC3707 /* Musica3.png */; };
+		AAAFD7E028FF675900EC3707 /* Musica2.png in Resources */ = {isa = PBXBuildFile; fileRef = AAAFD7DD28FF675800EC3707 /* Musica2.png */; };
+		AAAFD7E128FF675900EC3707 /* Musica1.png in Resources */ = {isa = PBXBuildFile; fileRef = AAAFD7DE28FF675800EC3707 /* Musica1.png */; };
+		AAAFD7E628FF69BB00EC3707 /* Musica4.png in Resources */ = {isa = PBXBuildFile; fileRef = AAAFD7E528FF69BB00EC3707 /* Musica4.png */; };
+		AAAFD7E828FF6AF100EC3707 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAFD7E728FF6AF100EC3707 /* ContentModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,13 @@
 		AAAFD7CD28FF670D00EC3707 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AAAFD7CF28FF670E00EC3707 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAAFD7D228FF670E00EC3707 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AAAFD7D928FF673300EC3707 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		AAAFD7DC28FF675800EC3707 /* Musica3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Musica3.png; sourceTree = "<group>"; };
+		AAAFD7DD28FF675800EC3707 /* Musica2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Musica2.png; sourceTree = "<group>"; };
+		AAAFD7DE28FF675800EC3707 /* Musica1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Musica1.png; sourceTree = "<group>"; };
+		AAAFD7E228FF67B900EC3707 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AAAFD7E528FF69BB00EC3707 /* Musica4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Musica4.png; sourceTree = "<group>"; };
+		AAAFD7E728FF6AF100EC3707 /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +64,13 @@
 		AAAFD7CA28FF670D00EC3707 /* IconChange */ = {
 			isa = PBXGroup;
 			children = (
+				AAAFD7E228FF67B900EC3707 /* Info.plist */,
 				AAAFD7CB28FF670D00EC3707 /* IconChangeApp.swift */,
 				AAAFD7CD28FF670D00EC3707 /* ContentView.swift */,
+				AAAFD7E728FF6AF100EC3707 /* ContentModel.swift */,
+				AAAFD7D928FF673300EC3707 /* ContentViewModel.swift */,
 				AAAFD7CF28FF670E00EC3707 /* Assets.xcassets */,
+				AAAFD7DB28FF675800EC3707 /* IconApp */,
 				AAAFD7D128FF670E00EC3707 /* Preview Content */,
 			);
 			path = IconChange;
@@ -65,6 +82,17 @@
 				AAAFD7D228FF670E00EC3707 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AAAFD7DB28FF675800EC3707 /* IconApp */ = {
+			isa = PBXGroup;
+			children = (
+				AAAFD7E528FF69BB00EC3707 /* Musica4.png */,
+				AAAFD7DC28FF675800EC3707 /* Musica3.png */,
+				AAAFD7DD28FF675800EC3707 /* Musica2.png */,
+				AAAFD7DE28FF675800EC3707 /* Musica1.png */,
+			);
+			path = IconApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +155,10 @@
 			files = (
 				AAAFD7D328FF670E00EC3707 /* Preview Assets.xcassets in Resources */,
 				AAAFD7D028FF670E00EC3707 /* Assets.xcassets in Resources */,
+				AAAFD7E628FF69BB00EC3707 /* Musica4.png in Resources */,
+				AAAFD7E028FF675900EC3707 /* Musica2.png in Resources */,
+				AAAFD7DF28FF675900EC3707 /* Musica3.png in Resources */,
+				AAAFD7E128FF675900EC3707 /* Musica1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +170,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAAFD7CE28FF670D00EC3707 /* ContentView.swift in Sources */,
+				AAAFD7E828FF6AF100EC3707 /* ContentModel.swift in Sources */,
 				AAAFD7CC28FF670D00EC3707 /* IconChangeApp.swift in Sources */,
+				AAAFD7DA28FF673300EC3707 /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +304,7 @@
 				DEVELOPMENT_TEAM = 9TPTHP2V2G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IconChange/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +334,7 @@
 				DEVELOPMENT_TEAM = 9TPTHP2V2G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IconChange/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
