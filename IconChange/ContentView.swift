@@ -12,7 +12,7 @@ struct ContentView: View {
             
             Spacer()
                 .frame(height: 30)
-            
+            // itera las imagenes
             ForEach(contentViewMocel.arrImages) { img in
                 Button {
                     contentViewMocel.cambiaIcono(icon: img.id)
